@@ -1,6 +1,6 @@
 body {
 	background-color: white;
-	font-size: 100%;
+	font-size: 14px;
 }
 
 * {
@@ -8,21 +8,43 @@ body {
 }
 
 h1 {
+	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 3em;
 	color: black;
-	text-align: center;
 }
 
-.box1 {
-  border: 2px solid black;
+p {
+	text-align: left;
+	padding: 10px;
+}
+
+#row {
+  width: auto;
+  padding: 20px 10px;
+  margin: 0px auto;
+}
+
+.boxhold {
+	float:left;
+	width: 33.33%;
+    margin-left:0px;
+    margin-right:0px;
+    padding-left:0px;
+    padding-right:0px;	
+}
+
+.boxinner {
   background-color: grey;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
   color: black;
-  margin: 5px;
-  padding-left: 15px;
+  margin: 0px;
+  border: 2px solid black;
+}
 
+.box1, .box2, .box3 {
+    margin-right:10px;
 }
 
 .chicken {
@@ -36,7 +58,6 @@ h1 {
 	color: black;
 	width: 120px;
 	float: right;
-
 }
 
 .beef {
@@ -63,8 +84,8 @@ h1 {
 	float: right;
 }
 
-.row {
-  width: 100%;
+.clear {
+    clear:both;
 }
 
 @media (min-width: 992px) {
@@ -107,11 +128,14 @@ h1 {
   .col-lg-12 {
     width: 100%;
   }
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
+    margin-top: 10px;
+    
   }
   .col-md-1 {
     width: 8.33%;
@@ -149,4 +173,49 @@ h1 {
   .col-md-12 {
     width: 100%;
   }
+
+}
+
+@media (max-width: 767px) {
+  .col-sd-1, .col-sd-2, .col-sd-3, .col-sd-4, .col-sd-5, .col-sd-6, .col-sd-7, .col-sd-8, .col-sd-9, .col-sd-10, .col-sd-11, .col-sd-12 {
+    float: left;
+    margin: 10px;
+  }
+  .col-sd-1 {
+    width: 8.33%;
+  }
+  .col-sd-2 {
+    width: 16.66%;
+  }
+  .col-sd-3 {
+    width: 25%;
+  }
+  .col-sd-4 {
+    width: 33.33%;
+  }
+  .col-sd-5 {
+    width: 41.66%;
+  }
+  .col-sd-6 {
+    width: 50%;
+  }
+  .col-sd-7 {
+    width: 58.33%;
+  }
+  .col-sd-8 {
+    width: 66.66%;
+  }
+  .col-sd-9 {
+    width: 74.99%;
+  }
+  .col-sd-10 {
+    width: 83.33%;
+  }
+  .col-sd-11 {
+    width: 91.66%;
+  }
+  .col-sd-12 {
+    width: 100%;
+  }
+
 }
