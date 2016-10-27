@@ -1,11 +1,53 @@
 body {
-  font-size: 16px;
-  padding-top: 70px;
+	font-size: 16px;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: yellow;
-  border-radius: 0;
-  border: 0;
+	background-color: gray;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+	color: white;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+/** END HEADER **/
+
+/** CONTENT **/
+h2 {
+	margin-top: 0
+}
+
+#main-content{
+	height: 1500px;
+	background-color: grey;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+	}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	}
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+	}
 }
