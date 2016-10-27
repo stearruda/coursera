@@ -1,26 +1,40 @@
 body {
 	font-size: 16px;
+	padding-top: 50px;
 }
 
 /** HEADER **/
 #header-nav {
 	background-color: gray;
 	border-radius: 0;
-	border: 0;
 }
 
-.navbar-brand h1 { /* Restaurant name */
+.navbar-brand h1 { /* Company name */
 	color: white;
 	font-size: 1.5em;
 	font-weight: bold;
 	margin-top: 0;
 	margin-bottom: 0;
 	line-height: .75;
+	float: left;
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus {
 	text-decoration: none;
 }
+
+#nav-list {
+	margin-top: 10px;
+}
+
+#nav-list a {
+	text-align: center;
+}
+
+#nav-list a span {
+	font-size: 1.8em;
+}
+
 /** END HEADER **/
 
 /** CONTENT **/
@@ -33,6 +47,10 @@ h2 {
 	background-color: grey;
 }
 
+#main-content{
+	margin-right: 30px;
+	margin-left: 30px;
+}
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
