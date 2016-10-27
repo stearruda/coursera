@@ -9,9 +9,13 @@ body {
 	border-radius: 0;
 }
 
+.navbar-brand {
+	height: auto;
+}
+
 .navbar-brand h1 { /* Company name */
-	color: white;
-	font-size: 1.5em;
+	color: black;
+	font-size: 2.1em;
 	font-weight: bold;
 	margin-top: 0;
 	margin-bottom: 0;
@@ -28,18 +32,50 @@ body {
 }
 
 #nav-list a {
+	color: black; 
 	text-align: center;
+	background-color: white;
+	padding-top: 0px;
+	padding-bottom: 5px;
 }
 
 #nav-list a span {
-	font-size: 1.8em;
+	font-size: 1.0em;
 }
 
+.navbar-default {
+	border: 2px solid black;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -45px;
+}
+
+hr {
+	border-color: black;
+	margin: auto;
+}
 /** END HEADER **/
 
 /** CONTENT **/
 h2 {
-	margin-top: 0
+	font-size: 1.8em;
+	font-weight: bold;
+	color: black;
+	margin-top: 30px;
+	margin-bottom: 35px;
+}
+
+h3 {
+	font-size: 1.3em;
+	font-weight: bold;
+	color: black;
+	margin-top: 10px;
 }
 
 #main-content{
@@ -51,21 +87,4 @@ h2 {
 	margin-right: 30px;
 	margin-left: 30px;
 }
-
-/********** Large devices only **********/
-@media (min-width: 1200px) {
-
-	}
-}
-
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-
-	}
-}
-
-/********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-
-	}
-}
+/** END CONTENT **/
