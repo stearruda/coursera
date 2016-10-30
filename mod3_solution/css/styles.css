@@ -1,6 +1,6 @@
 body {
 	font-size: 16px;
-	padding-top: 50px;
+	margin-top: 50px;
 }
 
 /** HEADER **/
@@ -88,3 +88,9 @@ h3 {
 	margin-left: 30px;
 }
 /** END CONTENT **/
+
+@media (max-width: 767px) {
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+		background-color: white;
+	}
+}
